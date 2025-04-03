@@ -1,0 +1,6 @@
+{
+  "training": true,
+  "metadata_file_path": "feature_metadata.xlsx",
+  "input_data_source": "CSV",
+  "file_path": "/example_inputs_v1.csv"
+}

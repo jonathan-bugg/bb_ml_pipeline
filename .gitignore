@@ -1,0 +1,7 @@
+/.venv
+/bb_ml_pipeline/__pycache__
+/bb_ml_pipeline/data/__pycache__
+/bb_ml_pipeline/models/__pycache__
+/bb_ml_pipeline/utils/__pycache__
+/.pytest_cache
+/bb_ml_pipeline/tests/__pycache__

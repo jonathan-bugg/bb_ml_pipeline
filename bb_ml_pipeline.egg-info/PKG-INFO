@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: bb-ml-pipeline
+Version: 0.1.0
+Summary: A pipeline for training, unboxing, and predicting LGBM models
+Home-page: https://github.com/yourusername/bb_ml_pipeline
+Author: BB ML Pipeline Team
+Author-email: example@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
 # BB ML Pipeline
 
 A machine learning pipeline for training, unboxing, and predicting LGBM classification models.

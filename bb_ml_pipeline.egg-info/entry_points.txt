@@ -1,0 +1,2 @@
+[console_scripts]
+bb_ml_pipeline = bb_ml_pipeline.__main__:main
