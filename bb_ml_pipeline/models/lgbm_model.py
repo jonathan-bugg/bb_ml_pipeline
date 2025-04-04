@@ -91,8 +91,7 @@ class LGBMModel:
                 params,
                 dtrain,
                 valid_sets=[dvalid],
-                callbacks=[lgb.early_stopping(10, verbose=False)],
-                verbose_eval=False
+                callbacks=[lgb.early_stopping(10)]
             )
             
             # Get the best score based on the evaluation metric
@@ -189,8 +188,7 @@ class LGBMModel:
                 best_params,
                 dtrain,
                 valid_sets=[dvalid],
-                callbacks=[lgb.early_stopping(10, verbose=False)],
-                verbose_eval=False
+                callbacks=[lgb.early_stopping(10)]
             )
             
             # Evaluate the model
@@ -228,8 +226,7 @@ class LGBMModel:
                 self.best_params,
                 dtrain,
                 valid_sets=[dtrain],
-                callbacks=[lgb.early_stopping(10, verbose=False)],
-                verbose_eval=False
+                callbacks=[lgb.early_stopping(10)]
             )
         else:
             # Use the best model from cross-validation

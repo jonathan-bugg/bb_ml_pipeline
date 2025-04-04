@@ -78,11 +78,13 @@ class ML_Pipeline:
         
         if not base_dir:
             base_dir = os.getcwd()
+
+        print(base_dir)
         
         # Create timestamped directory
         output_dir = os.path.join(base_dir, self.timestamp)
         os.makedirs(output_dir, exist_ok=True)
-        
+        print(output_dir)
         # Create subdirectories
         os.makedirs(os.path.join(output_dir, 'model'), exist_ok=True)
         os.makedirs(os.path.join(output_dir, 'predictions'), exist_ok=True)
